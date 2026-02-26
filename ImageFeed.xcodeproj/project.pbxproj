@@ -36,6 +36,7 @@
 		1CB9AAC62F34F01100BD2740 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9AAC52F34F01100BD2740 /* Formatter.swift */; };
 		1CB9AAC82F34F12700BD2740 /* Photo+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9AAC72F34F12700BD2740 /* Photo+Array.swift */; };
 		1CB9AB9B2F37C25A00BD2740 /* ProfileLogoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9AB9A2F37C25A00BD2740 /* ProfileLogoutService.swift */; };
+		1CC6A2D62F4F1FF700551808 /* WebViewPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6A2D52F4F1FF700551808 /* WebViewPresenterProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		1CB9AAC52F34F01100BD2740 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 		1CB9AAC72F34F12700BD2740 /* Photo+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+Array.swift"; sourceTree = "<group>"; };
 		1CB9AB9A2F37C25A00BD2740 /* ProfileLogoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLogoutService.swift; sourceTree = "<group>"; };
+		1CC6A2D52F4F1FF700551808 /* WebViewPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPresenterProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		1CB9AA542F34CB1800BD2740 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				1CC6A2D52F4F1FF700551808 /* WebViewPresenterProtocol.swift */,
 				1CB9AA522F34CB1800BD2740 /* AuthViewController.swift */,
 				1CB9AA532F34CB1800BD2740 /* WebViewViewController.swift */,
 			);
@@ -283,6 +286,7 @@
 				1C4DBFBB2F3B40E200D09A85 /* Notification.swift in Sources */,
 				1CB9AA712F34CB1800BD2740 /* ImagesListViewController.swift in Sources */,
 				1CB9AA722F34CB1800BD2740 /* ProfileViewController.swift in Sources */,
+				1CC6A2D62F4F1FF700551808 /* WebViewPresenterProtocol.swift in Sources */,
 				1CB9AB9B2F37C25A00BD2740 /* ProfileLogoutService.swift in Sources */,
 				1CB9AA732F34CB1800BD2740 /* SingleImageViewController.swift in Sources */,
 				1CB9AA742F34CB1800BD2740 /* SplashViewController.swift in Sources */,
