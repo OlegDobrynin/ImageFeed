@@ -191,6 +191,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbM-Hg-lTn">
                                 <rect key="frame" x="16" y="690" width="382" height="48"/>
                                 <color key="backgroundColor" name="YP White"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Authenticate"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="yJb-lk-duL"/>
                                 </constraints>
@@ -249,6 +250,9 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4LC-by-qA3"/>
                         <color key="backgroundColor" name="YP White"/>
+                        <accessibility key="accessibilityConfiguration" identifier="UnsplashWebView">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstItem="DaS-kH-3FX" firstAttribute="top" secondItem="4LC-by-qA3" secondAttribute="top" id="6aj-se-Jug"/>
                             <constraint firstItem="E9f-YV-c4A" firstAttribute="leading" secondItem="4LC-by-qA3" secondAttribute="leading" id="CUG-bJ-IB4"/>
